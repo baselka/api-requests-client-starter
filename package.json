@@ -1,6 +1,6 @@
 {
   "name": "api-requests-handler",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "api-requests-handler using axios",
   "main": "index.js",
   "scripts": {
