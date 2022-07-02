@@ -8,9 +8,10 @@ export function initApiHandler(options){
     API_ROOT = options.api_url;
 }
 
-export function headerAuthToken(options){
-    AUTH_TOKEN = options.api_url;
+export function setAuthToken(token){
+    AUTH_TOKEN = token;
 }
+
 export function getApiRoot() {
     if (API_ROOT === undefined || API_ROOT == null) {
         throw new Error("Uninitialized API ROOT URL");
