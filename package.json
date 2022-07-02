@@ -1,0 +1,14 @@
+{
+  "name": "api-requests-handler",
+  "version": "1.0.8",
+  "description": "api-requests-handler using axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Basil Satti",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
